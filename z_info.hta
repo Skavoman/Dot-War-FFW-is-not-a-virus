@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Dot-War [File Folder Wars] Info</title>
+    <htas:application 
+        id="app"
+        applicationname="Dot-War [File Folder Wars]"
+        border="thin"
+        caption="yes"
+        sysmenu="yes"
+        scroll="no"
+        singleinstance="yes">
+    </htas:application>
+    <script type="text/javascript">
+        function resizeToImage() {
+            var img = document.getElementById("image");
+            window.resizeTo(img.width + 60, img.height + 100); // Adjusting for window borders and title bar
+        }
+    </script>
+</head>
+<body onload="resizeToImage()">
+    <img id="image" src="https://static.wikia.nocookie.net/dotwar/images/b/b3/Info.png/revision/latest?cb=20241122233403" alt="Image" onload="resizeToImage()">
+</body>
+</html>
+
